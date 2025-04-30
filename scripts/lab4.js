@@ -12,6 +12,7 @@ function sumValues(num1, num2, add) {
     if(add){
         return num1 + num2;
     }
+    return false;
 }
 
 /**
