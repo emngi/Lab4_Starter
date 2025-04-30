@@ -7,7 +7,7 @@
  */
 function sumValues(num1, num2, add) {
     if (typeof num1 !== 'number' || typeof num2 !== 'number') {
-        return 0;
+        return false;
     }
     if(add){
         return num1 + num2;
